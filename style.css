@@ -1,3 +1,7 @@
+html: body {
+  height: 100%;
+}
+
 #navbar {
   background-color: #9EA1B9;
 }
@@ -98,15 +102,26 @@ h5 {
 
 .page-footer {
   background-color: #9EA1B9;
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+  left:0px;
+  height: 100px;
+  padding-top: 25px;
 }
 
-.footer_i, footer {
+.footer_i {
   color: white;
 }
 
+#main {
+  margin-bottom: 100px;
+}
+/*
 footer {
   position: fixed;
   width: 100%;
   bottom: 0px;
   left:0px;
+  height: 200px;
 }
